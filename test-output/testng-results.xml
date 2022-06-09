@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="86897" started-at="2022-06-09T06:12:19 CEST" finished-at="2022-06-09T06:13:46 CEST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="86897" started-at="2022-06-09T06:12:19 CEST" finished-at="2022-06-09T06:13:46 CEST">
+      <class name="com.transperfect.wahoofitness.CheckoutFunctionality">
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.transperfect.wahoofitness.CheckoutFunctionality@11758f2a]" name="setupTest" is-config="true" duration-ms="7608" started-at="2022-06-09T06:12:19 CEST" finished-at="2022-06-09T06:12:27 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="placeOrder()[pri:0, instance:com.transperfect.wahoofitness.CheckoutFunctionality@11758f2a]" name="placeOrder" duration-ms="79216" started-at="2022-06-09T06:12:27 CEST" finished-at="2022-06-09T06:13:46 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeOrder -->
+      </class> <!-- com.transperfect.wahoofitness.CheckoutFunctionality -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
