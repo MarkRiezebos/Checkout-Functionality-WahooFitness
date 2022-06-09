@@ -3,15 +3,15 @@
 The checkout functionality of the WahooFitness website is tested according to the following steps:
 
 1. Load https://eu.wahoofitness.com/ and open product category
-2. Select random product and add it to the cart (Verify that side-bar cart appears with added product).
-    - random product means: create product collection and select the one with random index
-    - "Coming soon" and "Out of stock" product are not available for ordering. Find a way to avoid such products and select available ones.
-    - if product has color option, select the first available color from the select-box (eg. https://eu.wahoofitness.com/devices/bike-computers/gps-elemnt-bolt)
+2. Select random product and add it to the cart (verify that side-bar cart appears with added product).
+    - Random product means: product collection is created and one is selected randomly.
+    - "Coming soon" and "Out of stock" products are not available for ordering. Such products are avoided and available ones are selected.
+    - If the product has one or more options (color, (sock) size, plug and socket type, trainer type), the first available option is selected from the select-box (e.g., https://eu.wahoofitness.com/devices/bike-computers/gps-elemnt-bolt).
 3. Go back to product category and select another random product and add it to the cart, too.
-    - random product means: create product collection and select the one with random index
-    - "Coming soon" and "Out of stock" product are not available for ordering. Find a way to avoid such products and select available ones.
-    - if product has color option, select the first available color from the select-box (eg. https://eu.wahoofitness.com/devices/bike-computers/gps-elemnt-bolt)
-4. After the side-bar slides out again, click the removal button under one of the items, then confirm with the following pop-up. The item should be successfully removed from the cart.
+    - Random product means: product collection is created and one is selected randomly.
+    - "Coming soon" and "Out of stock" products are not available for ordering. Such products are avoided and available ones are selected.
+    - If the product has one or more options (color, (sock) size, plug and socket type, trainer type), the first available option is selected from the select-box (e.g., https://eu.wahoofitness.com/devices/bike-computers/gps-elemnt-bolt).
+4. After the side-bar slides out again, the removal button is clicked under one of the items, which is confirmed with the following pop-up. The item should be successfully removed from the cart.
 5. At the bottom of the cart side-bar, click on the edit cart link - should be taken to cart page.
 6. Change the quantity of the item in the cart and click the update cart button. Prices should update to reflect the change.
 7. Click the blue proceed to checkout button. Should be taken to the checkout details page.
